@@ -51,7 +51,11 @@ app.get('', (req, res) => {
 
 // CRUD
 // Read = GET
-app.get('/products', (req, res) => {
+app.get('/customers', (req, res) => {
+    res.send(customers);
+})
+
+app.get('/customer ', (req, res) => {
     const qureyParams = req.query;
     const minPrice = qureyParams.minPrice || 0;
     const maxPrice = qureyParams.maxPrice || Infinity;
