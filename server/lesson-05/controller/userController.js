@@ -2,6 +2,8 @@ import UserModel from "../model/users.js";
 
 export const createUser = async (req, res, next) => {
     try {
+        console.log('createUser');
+
         const { userName, email } = req.body;
         if (!userName) throw new Error('User name is required!');
         if (!email) throw new Error('Email is required!');

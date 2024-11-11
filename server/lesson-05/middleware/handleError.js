@@ -4,6 +4,7 @@ function handleError(error, req, res, next) {
         data: null,
         success: false
     })
+    console.log('handleError');
 };
 
 export default handleError;
