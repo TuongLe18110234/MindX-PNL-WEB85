@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"nodemon ./lesson-03/index.js\" \"json-server --watch db.json\""
+    "dev": "concurrently \"nodemon ./lesson-09/index.js\" \"json-server --watch db.json\""
   },
   "author": "",
   "license": "ISC",
