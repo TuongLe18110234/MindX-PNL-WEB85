@@ -1,0 +1,44 @@
+.register {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    margin-top: 140px;
+    position: relative;
+}
+
+.register h3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.register .error-message {
+    margin-left: 28px;
+    color: rgba(208, 29, 29, 1);
+}
+
+.register form {
+    margin: 8px 16px 0px;
+    padding: 8px;
+}
+
+.action {
+    text-align: right;
+}
+
+.action .submit-btn {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    width: fit-content;
+    min-width: 100px;
+    padding: 8px 32px;
+    background-color: #8a2b06;
+    border-radius: 16px;
+}
+
+.action .submit-btn:hover {
+    cursor: pointer;
+    background-color: #9e4421;
+}

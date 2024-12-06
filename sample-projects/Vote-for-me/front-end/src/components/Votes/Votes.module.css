@@ -1,0 +1,32 @@
+.votes {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.votes h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    margin: 0;
+}
+
+.line {
+    margin: 8px auto;
+    height: 4px;
+    max-width: 320px;
+    background-color: #fff;
+}
+
+.notification {
+    font-size: 18px;
+    color: #fff;
+}
+
+.notification a {
+    margin: 0 4px;
+    color: #8167E8;
+}

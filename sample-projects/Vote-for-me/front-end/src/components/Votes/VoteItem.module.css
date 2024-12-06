@@ -1,0 +1,69 @@
+.vote-item {
+    margin: 16px auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -4px;
+}
+
+.status {
+    font-size: 24px;
+}
+
+.voted-percent {
+    width: 80px;
+    height: 36px;
+    border-radius: 16px;
+    background-color: #c4c4c4;
+    text-align: center;
+}
+
+.voted-percent--good {
+    background-color: rgba(27, 159, 64, 1);
+    color: #fff;
+}
+
+.voted-percent--fine {
+    background-color: rgba(61, 65, 152, 1);
+    color: #fff;
+}
+
+.voted-percent--bad {
+    background-color: rgba(208, 29, 29, 1);
+    color: #fff;
+}
+
+.voted-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    font-size: 24px;
+}
+
+.progress-bar {
+    margin: 12px 0px -4px;
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+}
+
+.progress-value {
+    height: 100%;
+    background-color: #3f3f3f;
+}
+
+.progress-value--good {
+    background-color: rgba(27, 159, 64, 1);
+}
+
+.progress-value--fine {
+    background-color: rgba(61, 65, 152, 1);
+}
+
+.progress-value--bad {
+    background-color: rgba(208, 29, 29, 1);
+}

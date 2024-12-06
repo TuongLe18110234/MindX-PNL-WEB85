@@ -1,0 +1,123 @@
+.comment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 16px 0;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.comment {
+    flex: 1;
+    height: 100%;
+    margin-left: 8px;
+    padding: 8px 4px 8px 24px;
+    border-radius: 26px;
+    border: solid 1px #e5e5e5;
+}
+
+.comment-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.comment-edit {
+    width: 100%;
+}
+
+.comment-edit form {
+    margin: 16px 16px 16px 0;
+}
+
+.comment-edit textarea {
+    display: block;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: auto;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 8px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.content {
+    flex: 1;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 16px;
+}
+
+.user-name {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.user-name h6 {
+    font-size: 18px;
+    margin: 0;
+} 
+
+.user-name p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #e5e5e5;
+    margin: 0 12px;
+}
+
+.user-comment {
+    max-inline-size: 1000px;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+}
+
+.more {
+    all: unset;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-container p {
+    display: block;
+    width: fit-content;
+    font-size: 18px;
+    padding: 4px;
+    margin: 0;
+    color: rgba(208, 29, 29, 1);
+}
+
+.btn-container span {
+    display: block;
+    width: fit-content;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 4px;
+    color: #e5e5e5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-container span:hover {
+    color: #fff;
+}

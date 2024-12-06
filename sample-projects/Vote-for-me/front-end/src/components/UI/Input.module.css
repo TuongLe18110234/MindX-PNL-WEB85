@@ -1,0 +1,15 @@
+.input input {
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    font: inherit;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 4px 16px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.input input:focus {
+    border: 2px solid #3f3f3f;
+}

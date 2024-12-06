@@ -1,0 +1,45 @@
+.button {
+    padding: 8px 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    width: fit-content;
+    min-width: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e5e5e5;
+}
+
+.button.active {
+    background-color: #3f3f3f;
+    color: #fff;
+}
+
+.button.active.good {
+    background-color: rgba(27, 159, 64, 1);
+}
+
+.button.active.fine {
+    background-color: rgba(61, 65, 152, 1);
+}
+
+.button.active.bad {
+    background-color: rgba(208, 29, 29, 1);
+}
+
+.button.active.good:hover {
+    background-color: rgba(27, 159, 64, .8);
+}
+
+.button.active.fine:hover {
+    background-color: rgba(61, 65, 152, .8);
+}
+
+.button.active.bad:hover {
+    background-color: rgba(208, 29, 29, .8);
+}

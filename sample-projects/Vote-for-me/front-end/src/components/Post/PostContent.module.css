@@ -1,0 +1,29 @@
+.post-content {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    margin-top: 116px;
+    position: relative;
+}
+
+.content {
+    padding: 0 48px;
+}
+
+.content li {
+    font-size: 18px;
+}
+
+h3 {
+    margin: 16px 0;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h5 {
+    margin: 8px 0;
+    font-size: 24px;
+    font-weight: bold;
+}

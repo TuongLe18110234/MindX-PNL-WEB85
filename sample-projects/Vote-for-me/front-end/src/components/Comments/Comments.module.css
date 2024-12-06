@@ -1,0 +1,25 @@
+.comments {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.comments h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    margin: 0;
+}
+
+.line {
+    margin: 8px auto;
+    height: 4px;
+    max-width: 320px;
+    background-color: #fff;
+}
+
+.comment-items{
+    margin-top: 54px;
+}
